@@ -4,7 +4,7 @@ haha, it is i! arlodude!!
 
 i like computery things, such as video games and programming.
 
-some of my favorite games are undertale, deltarune, celeste, and ultrakill.
+some of my favorite games are undertale, deltarune, celeste, ultrakill, and the entire persona franchise.
 
 i also really enjoy a selection of roblox games such as grace, EToH, and Tower Creator.
 
