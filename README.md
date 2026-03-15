@@ -1,5 +1,3 @@
-# arlodude112.github.io
+# welcome
 
-hello hello
-
-# this is a test fr
+haha i have my own website now
