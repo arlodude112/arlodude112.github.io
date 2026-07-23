@@ -14,18 +14,28 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   font-size: 2rem;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
-@keyframes moveUp {
+@keyframes shrink {
   from {
-    transform: translateY(0);
+    transform: translateHeight(100);
   }
   to {
-    transform: translateY(-250px);
+    transform: translateHeight(10);
   }
+}
+
+.titleSection {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  animation: shrink 2s ease-in-out 0.5s forwards;
 }
 
 .hero-text {
@@ -33,5 +43,4 @@ section {
     font-size: 4rem;
     font-weight: 800;
     display: inline-block;
-    animation: moveUp 2s ease-in-out 0.5s forwards;
 }
