@@ -40,9 +40,18 @@
             "sup",
             "hiiiiiiiii"
         ]
+        const fontOptions = [
+            "Courier New",
+            "Times New Roman",
+            "Arial",
+            "Brush Script MT",
+            "Verdana"
+        ]
         function randomText() {
             const randomIndex = Math.floor(Math.random() * textOptions.length);
             document.getElementById("random").innerText = textOptions[randomIndex];
+            const randomFont = Math.floor(Math.random() * fontOptions.length);
+            document.getElementById("random").style.fontFamily = fontOptions[randomFont];
         }
         window.onload = randomText;
     </script>
