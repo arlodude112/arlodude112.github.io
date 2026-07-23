@@ -86,10 +86,12 @@ section {
 }
 
 .split-section {
-  display: flex;
-  justify-content: space-between;
+  display: flex !important;
+  flex-direction: row !important; 
+  justify-content: space-between !important;
   align-items: center;
   width: 100%;
+  text-align: left;
 }
 
 
