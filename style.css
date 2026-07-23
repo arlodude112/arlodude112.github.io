@@ -8,3 +8,9 @@ body {
 h1 {
   font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
 }
+
+.hero-text {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}
