@@ -15,12 +15,13 @@ p {
   padding-top: 0;
 }
 section {
-  height: 25vh;
-  display: flex;
   justify-content: left;
   align-items: left;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 25vh;
 }
 
 @keyframes shrink {
