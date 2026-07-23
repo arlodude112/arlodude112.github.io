@@ -44,7 +44,6 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
   animation: shrink 2s ease-in-out 0.5s forwards;
   overflow: hidden;
 }
