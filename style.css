@@ -9,14 +9,16 @@ body {
 h1 {
   font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
 }
-
+p {
+  font-size: clamp(0.5rem, 2vw + 0.5rem, 0.25rem);
+}
 section {
   height: 25vh;
   display: flex;
   justify-content: left;
   align-items: left;
-  font-size: 2rem;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 @keyframes shrink {
