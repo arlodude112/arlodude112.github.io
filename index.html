@@ -65,21 +65,13 @@
                 const response = await fetch("https://long-math-1f72.arlodude112.workers.dev/");
                 const potd = await response.json();
         
-                // Log the exact response to your browser console for debugging
-                console.log("Worker response:", potd);
-
-                if (potd.phrase) {
-                    document.getElementById("phrase-text").innerText = potd.phrase;
-                } else if (potd.error) {
-                    document.getElementById("phrase-text").innerText = "Error: " + potd.error;
-                } else {
-                    // Fallback if the object key isn't named 'phrase'
-                    document.getElementById("phrase-text").innerText = JSON.stringify(potd);
-                }
+                // Grab 'latestMessage' instead of 'phrase'
+                document.getElementById("phrase-text").innerText = potd.latestMessage;
             } catch (error) {
                 document.getElementById("phrase-text").innerText = "Could not load phrase today!";
                 console.error("Fetch error:", error);
         }
+}
 }
 
         window.onload = function() {
