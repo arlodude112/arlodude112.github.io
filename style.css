@@ -23,7 +23,6 @@ strong {
 section {
   justify-content: left;
   align-items: left;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
   flex-direction: column;
