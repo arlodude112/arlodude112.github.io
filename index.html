@@ -20,8 +20,8 @@
         </div>
 
         <div class="box">
-            <h1>Phrase of the Day</h1>
-            <p id="phrase-text"><i>Loading phrase from Discord...</i></p>
+            <h3><strong>Phrase of the Day</strong></h3>
+            <p id="phrase-text">Loading phrase from Discord...</p>
         </div>
     </section>
     
@@ -65,7 +65,8 @@
                 const response = await fetch("https://long-math-1f72.arlodude112.workers.dev/");
                 const potd = await response.json();
         
-                document.getElementById("phrase-text").innerText = potd.latestMessage;
+                document.getElementById("phrase-text").innerHTML = `<i>${potd.latestMessage}</i>`;
+
             } catch (error) {
                 document.getElementById("phrase-text").innerText = "Could not load phrase today!";
                 console.error("Fetch error:", error);
