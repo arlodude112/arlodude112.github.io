@@ -21,7 +21,7 @@ section {
 
 @keyframes shrink {
   from {
-    height: 75vh;
+    height: 85vh;
   }
   to {
     height: 20vh;
@@ -29,7 +29,7 @@ section {
 }
 
 .titleSection {
-  height: 75vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
