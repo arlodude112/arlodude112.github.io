@@ -10,6 +10,8 @@ body {
   margin: 0;
   padding: 0px;
   transition: background-color 0.8s ease;
+  display: flex;
+  min-height: 100vh;
 }
 
 h1 {
