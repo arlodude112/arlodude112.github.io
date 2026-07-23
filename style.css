@@ -74,6 +74,8 @@ section {
 .footer-box {
   background-color: #1a1a1a;
   padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 
