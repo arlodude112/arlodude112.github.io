@@ -3,10 +3,20 @@ body {
   background-color: #5F0096;
   margin: 0;
   padding: 20px;
+  transition: background-color 0.8s ease;
 }
 
 h1 {
   font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 .hero-text {
