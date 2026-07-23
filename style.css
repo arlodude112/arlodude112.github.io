@@ -11,7 +11,7 @@ h1 {
 }
 
 section {
-  height: 100vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: left;
@@ -29,7 +29,7 @@ section {
 }
 
 .titleSection {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
