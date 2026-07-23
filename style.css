@@ -24,7 +24,7 @@ section {
     transform: translateY(0);
   }
   to {
-    transform: translateY(-100px);
+    transform: translateY(-250px);
   }
 }
 
@@ -33,5 +33,5 @@ section {
     font-size: 4rem;
     font-weight: 800;
     display: inline-block;
-    animation: moveUp 0.2s ease-in-out 2s forwards;
+    animation: moveUp 2s ease-in-out 0.5s forwards;
 }
