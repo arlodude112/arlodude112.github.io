@@ -7,9 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section data-color=>
+    <section data-color="#5F0096">
         <h1 class="hero-text" id="random">loading...</h1>
-    </sectiob>
+    </section>
+    
+    <section data-color="#007D06">
+        <h1> HELLO THIS WILL CHANGE THE COLORS </h1>
+    </section>
+    
+    <script>
+        const sections = document.querySelectorAll('section');
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const newColor = entry.target.getAttribute('data-color');
+              document.body.style.backgroundColor = newColor;
+            }
+          });
+        }, {
+          threshold: 0.5
+        });
+
+        sections.forEach(section => observer.observe(section));
+    </script>
     
     <script>
         const textOptions = [
