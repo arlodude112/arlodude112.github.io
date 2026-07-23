@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="hero-text">test</h1>
+    <h1 class="hero-text" id="random">loading...</h1>
+    
+    <script>
+        const textOptions = [
+            "one",
+            "two"
+        ]
+        function randomText() {
+            const randomIndex = Math.floor(Math.random() * textOptions.length);
+            document.getElementById("random").innerText = textOptions[randomIndex];
+        }
+        window.onload = displayRandomText;
+    </script>
+    
     <p>cool</p>
 </body>
 </html>
